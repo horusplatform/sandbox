@@ -29,6 +29,7 @@ ____
 + Message hell (lost, server crash, leak, etc).
 + High-avaibility.
 + Product technology upgrade.
++ Message queue decomposition (separate from application server).
 
 
 **Next Steps**
@@ -38,6 +39,28 @@ _____
     + API.
     + Message document definition.
     + Consumer & producer design.
+    + Message Object definition (request/response/header - HTTP model)
+    ```json
+    {
+        "request": {
+            "header": {
+                "type": "direct"
+            },
+            "body": {},
+            "route": {}          
+            
+        },
+        "response": {
+            "header": {
+                "status_code": []
+            },
+            "body": {
+                "stdout": {},
+                "stderr": {}
+            }
+        }
+    }
+    ```
 
 
 
