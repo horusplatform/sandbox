@@ -5,6 +5,7 @@ _____
 * RabbitMQ product evaluation in order to replace custom messaging queue technology used by RTM today.
 * To learn how product works and what are the main products advantages.
 * Technical prototype design definition.
+* Must be an abstract solution.
 
 **Tasks**
 ______
@@ -39,7 +40,8 @@ _____
     + API.
     + Message document definition.
     + Consumer & producer design.
-    + Message Object definition (request/response/header - HTTP model)
+    + Local Message Storage.
+    + Message Object definition (request/response/header - HTTP model).
     ```json
     {
         "request": {
