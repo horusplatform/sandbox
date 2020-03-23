@@ -1,7 +1,7 @@
 import pika
 import json
 
-connection = pika.BlockingConnection(pika.ConnectionParameters('192.168.0.26'))
+connection = pika.BlockingConnection(pika.ConnectionParameters('192.168.0.31'))
 channel = connection.channel()
 channel.queue_declare(queue='hello')
 

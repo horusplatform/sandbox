@@ -35,8 +35,8 @@ ____
 
 **Next Steps**
 _____
-+ Finish tutorials.
-+ Design initial prototype.
+- [ ] Finish tutorials.
+- [ ] Design initial prototype.
     + API.
     + Message document definition.
     + Consumer & producer design.
