@@ -1,0 +1,16 @@
+{
+    "header" : {
+        "messageType" : ["direct", "admin", "callback"],
+        "from"        : "fromChannel",
+        "to"          : "toChannel",
+        "priority"    : ["low", "normal", "high"],
+        "timestamp"   : "yyyy-mm-dd hh:mm:ss",
+        "routing"     : "agentID",
+        "server"      : "127.0.0.1"
+    },
+    "body" : {
+    },
+    "attachments" : {
+
+    }
+}
