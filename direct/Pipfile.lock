@@ -26,11 +26,11 @@
         },
         "restrictedpython": {
             "hashes": [
-                "sha256:9bd69505147b0ff8c68f4ff5a275975a3ab66fc43cbf3b61a195650ed767cd4e",
-                "sha256:a080569bffdf53371ae3e754ab1732f43054b1bab904fc100f74ba68ac731abc"
+                "sha256:a11389ec0963f30cae888ae4258a9bd9018a15318b763d06ab6bc86e67848f04",
+                "sha256:fcd86af4c105881453f9a13ac0cb67dcdf2bb5afc909373f7a4978e3cf2ee72c"
             ],
             "index": "pypi",
-            "version": "==5.0"
+            "version": "==5.3"
         }
     },
     "develop": {}
